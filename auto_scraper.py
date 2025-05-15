@@ -1,1 +1,0 @@
-<auto_scraper.py content here>
