@@ -1,17 +1,74 @@
 # 🛍️ Joy & Co Product Feed Generator
 
-Automated system to generate product feeds for Google Shopping and Meta (Facebook/Instagram) Ads.
+This Streamlit app allows you to upload a CSV product export from your eCommerce platform and instantly generate:
 
-## Features
-- Scrapes product data from https://joyandco.com/products
-- Generates two CSVs: `google_product_feed.csv` and `meta_product_feed.csv`
-- Daily auto-updates via GitHub Actions
-- Streamlit GUI for manual download and preview
+- ✅ Google Shopping Feed
+- ✅ Meta (Facebook/Instagram) Product Feed
 
-## How to Use
-1. Clone the repo
-2. Run locally with Streamlit:
-```
-streamlit run streamlit_app.py
-```
-3. GitHub Actions will auto-run `auto_scraper.py` every 24 hours
+---
+
+## 📦 Features
+
+- Drag & drop CSV or Excel upload
+- Auto-generate `google_product_feed.csv`
+- Auto-generate `meta_product_feed.csv`
+- Download buttons for one-click export
+
+---
+
+## 📁 How to Use
+
+1. **Export** your product list from your CMS or backend.
+2. **Upload** the file in the app.
+3. **Download** Google and Meta Shopping feed CSVs.
+
+---
+
+## ✅ Required Columns in CSV
+
+Your uploaded file must include at least:
+
+- `id` (unique product ID)
+- `title`
+- `description`
+- `link` (product page URL)
+- `image_link` (main image URL)
+- `price` (numeric or string)
+- `stock` (0 or more)
+- `brand` (optional)
+
+> 📄 Use the sample file below to get started.
+
+---
+
+## 🧪 Test File
+
+Use this [sample template CSV](sample_product_upload_template.csv) to test the app or format your own product list.
+
+---
+
+## 🚀 Live App
+
+Deployed on Streamlit Cloud:  
+👉 [https://joyco-feed-generator.streamlit.app](https://joyco-feed-generator.streamlit.app)
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+
+---
+
+## ✨ Example Screenshot
+
+![screenshot](https://via.placeholder.com/900x500?text=Product+Feed+Generator+App)
+
+---
+
+## 📥 Contact
+
+Made by [Your Agency / Team Name]  
+📧 Email: you@example.com
