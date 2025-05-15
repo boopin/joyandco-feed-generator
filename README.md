@@ -50,7 +50,7 @@ Use this [sample template CSV](sample_product_upload_template.csv) to test the a
 ## 🚀 Live App
 
 Deployed on Streamlit Cloud:  
-👉 [https://joyco-feed-generator.streamlit.app](https://joyco-feed-generator.streamlit.app)
+👉 [https://joyco-feed-generator-v2.streamlit.app](https://joyco-feed-generator-v2.streamlit.app)
 
 ---
 
